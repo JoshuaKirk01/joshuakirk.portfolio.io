@@ -204,21 +204,45 @@ header {
 }
 
 .project-text {
-    padding: 10px 5% 0;
+    padding: 10px 10% 0;
     font-size: 80%;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    gap: 10px;
+}
+
+.skills li {
+    color: var(--accent-gray);
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: bold;
 }
 
 .buttons {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    height: 50px;
-    padding: 25px 0 50px 0;
+    margin: 25px 0 50px;
+}
+
+@media only screen and (max-width: 550px) {
+    .buttons {
+        flex-direction: column;
+        gap: 15px;
+    }
 }
 
 .project-btn, .contact-btn {
-    margin: auto;
-    padding: 14px 54px;
+    width: 150px;
+    padding: 12px 42px;
     border: 2px solid var(--accent-blue);
     background-color: var(--accent-gray);
     color: white;
@@ -271,5 +295,5 @@ header {
 }
 
 .contact-btn {
-    margin-top: 50px;;
+    margin: 50px auto 0;
 }
