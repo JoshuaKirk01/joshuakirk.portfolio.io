@@ -65,6 +65,40 @@ nav ul li a i:hover {
     opacity: 0.6;
 }
 
+.menu {
+    display: none;
+}
+
+.menu i {
+    font-size: 24px;
+    color: white;
+    transition: all 250ms;
+}
+
+.menu i:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+@media only screen and (max-width: 720px) {    
+    .dropdown {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 75px;
+        box-shadow: 0 10px 35px 0 rgb(13, 19, 27);
+        background-color: var(--accent-gray);
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .active {
+        display: flex;
+    }
+}
+
 /* Hero Elements */
 
 header {
