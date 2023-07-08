@@ -54,7 +54,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    opacity: 0.6;
+    color: var(--accent-blue);
 }
 
 nav ul li a i {
@@ -64,7 +64,7 @@ nav ul li a i {
 }
 
 nav ul li a i:hover {
-    opacity: 0.6;
+    color: var(--accent-blue);
 }
 
 .menu {
@@ -79,7 +79,7 @@ nav ul li a i:hover {
 
 .menu i:hover {
     cursor: pointer;
-    opacity: 0.6;
+    color: var(--accent-blue);
 }
 
 @media only screen and (max-width: 720px) {    
@@ -171,6 +171,7 @@ header {
     transition: all 250ms;
     text-transform: uppercase;
     letter-spacing: 2px;
+    font-family: 'Montserrat', sans-serif !important;
 }
 
 .btn:hover {
@@ -250,6 +251,7 @@ header {
     transition: all 250ms;
     text-transform: uppercase;
     letter-spacing: 2px;
+    font-family: 'Montserrat', sans-serif !important;
 }
 
 .project-btn:hover, .contact-btn:hover {
@@ -284,9 +286,10 @@ header {
     line-height: 24px;
     margin: 10px 0 20px;
     padding: 8px 12px;
-    border: 2px solid var(--accent-gray);
+    border: 2px solid white;
     border-radius: 8px;
     font-size: 16px;
+    font-family: 'Montserrat', sans-serif !important;
 }
 
 .contact-form textarea {
@@ -296,4 +299,9 @@ header {
 
 .contact-btn {
     margin: 50px auto 0;
+}
+
+.submit-response {
+    text-align: center;
+    visibility: hidden;
 }
