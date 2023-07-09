@@ -260,6 +260,12 @@ header {
     color: white;
 }
 
+.soon {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
 /*  Contact */
 
 .contact {
