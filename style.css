@@ -261,9 +261,9 @@ header {
 }
 
 .soon {
-    text-transform: uppercase;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*  Contact */
