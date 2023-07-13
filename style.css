@@ -206,6 +206,20 @@ header {
     object-fit: cover;
 }
 
+.project-img {
+    position: relative;
+}
+
+.status {
+    position: absolute;
+    top: 0;
+    margin: 16px;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: rgb(255, 62, 62);
+    box-shadow: 0 0 10px 3px #1b1b1b;
+}
+
 .project-text {
     padding: 10px 10% 0;
     font-size: 80%;
@@ -260,6 +274,10 @@ header {
     cursor: pointer;
     background-color: var(--accent-blue);
     color: white;
+}
+
+.project-btn:disabled {
+    cursor: not-allowed;
 }
 
 .soon {
