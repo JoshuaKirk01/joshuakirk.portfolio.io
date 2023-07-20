@@ -220,7 +220,11 @@ header {
     box-shadow: 0 0 10px 3px #1b1b1b;
 }
 
-.project-text {
+.project-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 350px;
     padding: 10px 10% 0;
     font-size: 80%;
 }
@@ -246,7 +250,6 @@ header {
 .buttons {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     margin: 25px 0 50px;
 }
 
