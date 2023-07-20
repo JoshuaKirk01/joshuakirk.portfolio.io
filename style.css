@@ -220,7 +220,7 @@ header {
     box-shadow: 0 0 10px 3px #1b1b1b;
 }
 
-.project-content {
+.project-stuff {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
