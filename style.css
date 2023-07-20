@@ -25,6 +25,7 @@ nav {
     position: sticky;
     top: 0;
     background-color: var(--accent-gray);
+    z-index: 999;
 }
 
 nav ul {
@@ -251,13 +252,7 @@ header {
     display: flex;
     justify-content: space-between;
     margin: 25px 0 50px;
-}
-
-@media only screen and (max-width: 550px) {
-    .buttons {
-        flex-direction: column;
-        gap: 15px;
-    }
+    align-items: center;
 }
 
 .project-btn, .contact-btn {
@@ -287,6 +282,24 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media only screen and (max-width: 720px) {
+    .project-btn {
+        padding: 12px 36px;
+        font-size: 90%;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .buttons {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .project-stuff {
+        height: auto;
+    }
 }
 
 /*  Contact */
